@@ -1,0 +1,9 @@
+{
+  "files.exclude": {
+    "**/.**": true,
+    "**/**-lock.**": true,
+    "**/**.lock": true,
+    "**/build": true,
+    "**/node_modules": true
+  }
+}

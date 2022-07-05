@@ -1,0 +1,43 @@
+include: package:lint/analysis_options_package.yaml
+
+linter:
+  rules:
+    #styles
+    lowerCamelCase: true
+    lowercase_with_underscores: true
+    camel_case_types: true
+    library_names: true
+    avoid_catching_errors: true
+    avoid_empty_else: true
+    avoid_classes_with_only_static_members: true
+    avoid_null_checks_in_equality_operators: true
+    empty_statements: true
+    unnecessary_parenthesis: true
+    unnecessary_this: true
+    unnecessary_const: true
+    unnecessary_overrides: true
+    unnecessary_lambdas: true
+    unnecessary_brace_in_string_interps: true
+    library_prefixes: true
+    prefer_single_quotes: true
+
+    # formatitng
+    # formating: true
+    await_only_futures: true
+    always_use_package_imports: true
+    avoid_relative_lib_imports: true
+    avoid_returning_null_for_future: true
+    avoid_type_to_string: true
+    prefer_final_locals: true
+    lines_longer_than_80_chars: true
+    curly_braces_in_flow_control_structures: true
+    recursive_getters: true
+    always_put_required_named_parameters_first: true
+    sort_constructor_first: true
+
+    # formating: false
+    prefer_const_literals_to_create_immutables: false
+    avoid_shadowing_type_parameters: false
+    
+    # doc comment
+    slash_for_doc_comments: true
